@@ -36,3 +36,43 @@
     transform: rotate(360deg);
   }
 }
+
+.container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 3%;
+  align-items: center;
+  padding: 25px;
+}
+
+.input {
+  padding: 10px;
+  margin: auto;
+  border-radius: 10px;
+  border: 1px solid black;
+  margin-bottom: 15%;
+}
+
+.input:focus {
+  outline: none;
+}
+
+.city {
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.temp {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.temp-diff {
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.temp-info {
+  display: flex;
+  justify-content: space-between;
+}
