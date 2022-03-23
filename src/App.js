@@ -57,10 +57,9 @@ function App() {
               </div>
             </div>
           )}
+          {weatherData.cod === "404" ? <p>City not found</p> : <></>}
         </div>
       </div>
-
-      {weatherData.cod === "404" ? <p>City not found</p> : <></>}
     </div>
   );
 }
