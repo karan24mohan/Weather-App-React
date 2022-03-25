@@ -1,7 +1,7 @@
 import "./App.css";
 import React, { useState } from "react";
 
-console.log(process.env);
+
 function App() {
   const [weatherData, setWeatherData] = useState([{}]);
   const [city, setCity] = useState("");
